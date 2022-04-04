@@ -1,0 +1,19 @@
+body {
+    font: sans-serif;
+    font-size: 20px;
+    background-color: pink;
+    padding: 20 px;
+    color: navy;
+    text-align: center;
+
+}
+h1 {font-family: 'Rubik Puddles', cursive;
+        font-size: 50px;
+}
+
+div {text-align: center;}
+
+footer {background-color: yellow;
+    color: navy;
+    font-size: 16px;
+}
