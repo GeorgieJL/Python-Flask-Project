@@ -7,28 +7,25 @@
     </style>
 </head>
 
-<header>
-    <h1>{{title}} Page</h1>
-</header>
+<header class="intro">{{title}} Page</header>
 <body>
-<header> {{title}} Page </header>
 
+<div class=".page-wrapper">
     {% block body_content %}
-    {% endblock %}
+ {% endblock %}
+    </div>
 </body>
 <footer>
-    <div>
-    <li>
-     <ul>
+    <li class="sidebar">
+     <ul class="sidebar">
          <a href="http://127.0.0.1:4004/about">About Page</a>
      </ul>
-        <ul>
+        <ul class="sidebar">
             <a href="http://127.0.0.1:4004/">Home Page</a>
         </ul>
-        <ul>
+        <ul class="sidebar">
             <a href="http://127.0.0.1:4004/city">About Springfield</a>
         </ul>
      </li>
-        </div>
 </footer>
 </html>

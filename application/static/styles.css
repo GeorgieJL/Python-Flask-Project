@@ -55,6 +55,7 @@ abbr {
 .intro {
 	min-width: 470px;
 	width: 100%;
+	align: center;
 	}
 
 header h1 {
@@ -90,7 +91,7 @@ header {
 	clear: both;
 	margin: 20px 20px 20px 10px;
 	width: 160px;
-	float: left;
+	text-align: center;
 	}
 .summary p {
 	font: italic 1.1em/2.2 georgia;
